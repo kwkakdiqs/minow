@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>민음사</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="../html/jquery/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <h1>민음사</h1>
+        <nav id="gnb">
+            <h2 class="hide">민음사 주요이용메뉴</h2>
+            <ul id="gnbInner">
+                <li id="book"><a href="#">도서</a>
+                    <ul class="snb">
+                        <li><a href="#">전체 도서</a></li>
+                        <li><a href="#">베스트셀러</a></li>
+                        <li><a href="#">전자책 목록</a></li>
+                        <li><a href="#">민음 북샵</a></li>
+                        <li><a href="#">동네서점</a></li>
+                        <li><a href="#">민음사 북로그</a></li>
+                    </ul>
+                </li>
+                <li id="Community"><a href="#">커뮤니티</a>
+                    <ul class="snb">
+                        <li><a href="#">민음커뮤니티</a></li>
+                        <li><a href="#">독자 리뷰</a></li>
+                        <li><a href="#">패밀리데이</a></li>
+                        <li><a href="#">독서모임 캘린더</a></li>
+                    </ul>
+                </li>
+                <li id="member"><a href="#">멤버십</a>
+                    <ul class="snb">
+                        <li><a href="#">멤버십 안내</a></li>
+                        <li><a href="#">멤버십 문의</a></li>
+                        <li><a href="#">민음북클럽</a></li>
+                        <li><a href="#">회원권 선물</a></li>
+                        <li><a href="#">릿터 정기구독</a></li>
+                        <li><a href="#">한편 정기구독</a></li>
+                        <li><a href="#">e-스탬프 이벤트</a></li>
+                    </ul>
+                </li>
+                <li id="say"><a href="#">소개</a></li>
+            </ul>
+        </nav>
+        <nav id="sideNav">
+            <h2 class="hide">민음사 커뮤니티 메뉴</h2>
+            <a href="#search" class="search">검색</a>
+            <a href="#" class="login">로그인</a>
+            <a href="#" class="join">회원가입</a>
+            <a href="#" class="center">고객센터</a>
+        </nav>
+        <a href="#" class="gnbMenu">메뉴보기</a>
+        <form id="search">
+            <fieldset>
+                <legend class="hide">검색하기</legend>
+                <input type="text" class="searchBox" aria-label="검색창" placeholder="검색어를 입력해 주세요" maxlength="20">
+                <input type="image" class="searchBtn" alt="검색버튼" src="./img/search.png">
+            </fieldset>
+        </form>
+    </header>
+    <section id="slogan">
+        <div id="sloganWrap">
+            <h2 class="hide">민음사 이벤트 관련공지</h2>
+            <section id="slogan1" class="slogan">
+                <h3><span class="text">독서모임</span> 캘린더 </h3>
+                <p>독서모임 캘린더 내 행사는 민음사가 주최하는 것이 아닌 <br>
+                    북클럽 회원 분들과 파트너사의 자발적인 운영으로 이루어 집니다.</p>
+                <a href="#">독서모임 참여하기</a>
+            </section>
+            <section id="slogan2" class="slogan">
+                <h3>2023 <span class="text">13기 민음북클럽</span> 모집이 마감되었습니다.</h3>
+                <p>14기 민음북클럽은 2024년 4월 중에 오픈 예정입니다.</p>
+                <a href="#">14기 민음북클럽 오픈 알림신청</a>
+            </section>
+        </div>
+        <div id="slideGroup">
+            <a href="#" class="one">1</a>
+            <a href="#" class="two">2</a>
+        </div>
+    </section>
+    <main id="mainContent">
+        <section id="Category">
+            <h2>책태기 <span>싹-</span> 날려줄 도서</h2>
+            <ul id="CategoryWrap">
+                <li id="kr"><a href="#" class="selected">한국 문학</a>
+                    <div class="wrapDiv">
+                        <ul>
+                            <li><a href="#"><img src="./img/Category/1.jpg" alt="액체 상태의 사랑"></a></li>
+                            <li><a href="#"><img src="./img/Category/2.jpg" alt="다시 말해 줄래요?"></a></li>
+                            <li><a href="#"><img src="./img/Category/3.jpg" alt="오늘의 섬을 시작합니다"></a></li>
+                            <li><a href="#"><img src="./img/Category/4.jpg" alt="세 개의 바늘"></a></li>
+                            <li><a href="#"><img src="./img/Category/5.jpg" alt="꼭대기의 수줍음"></a></li>
+                            <li><a href="#"><img src="./img/Category/6.jpg" alt="일기시대"></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="fc"><a href="#">외국 문학</a>
+                    <div class="wrapDiv">
+                        <ul>
+                            <li><a href="#"><img src="./img/Category/7.jpg" alt="피아노 조율사"></a></li>
+                            <li><a href="#"><img src="./img/Category/8.jpg" alt="베니스의 상인"></a></li>
+                            <li><a href="#"><img src="./img/Category/9.jpg" alt="인간실격"></a></li>
+                            <li><a href="#"><img src="./img/Category/10.jpg" alt="시모키타자와에 대하여"></a></li>
+                            <li><a href="#"><img src="./img/Category/11.jpg" alt="고독사를 피하는 법"></a></li>
+                            <li><a href="#"><img src="./img/Category/12.jpg" alt="나를 보내지 마"></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="nfc"><a href="#">논픽션</a>
+                    <div class="wrapDiv">
+                        <ul>
+                            <li><a href="#"><img src="./img/Category/13.jpg" alt="느긋하게 밥을 먹고 느슨한 옷을 입습니다"></a></li>
+                            <li><a href="#"><img src="./img/Category/14.jpg" alt="광대하고 게으르게"></a></li>
+                            <li><a href="#"><img src="./img/Category/15.jpg" alt="작가를 짓다"></a></li>
+                            <li><a href="#"><img src="./img/Category/16.jpg" alt="천의 얼굴을 가진 영웅"></a></li>
+                            <li><a href="#"><img src="./img/Category/17.jpg" alt="거리를 바꾸는 작은 가게"></a></li>
+                            <li><a href="#"><img src="./img/Category/18.jpg" alt="먹고 기도하고 사랑하라"></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="rest"><a href="#">기타</a>
+                    <div class="wrapDiv"> 
+                        <ul>
+                            <li><a href="#"><img src="./img/Category/19.jpg" alt="위대한 개츠비"></a></li>
+                            <li><a href="#"><img src="./img/Category/20.jpg" alt="노인과 바다"></a></li>
+                            <li><a href="#"><img src="./img/Category/21.jpg" alt="죽은 나무를 위한 애도"></a></li>
+                            <li><a href="#"><img src="./img/Category/22.jpg" alt="배반의 보랏빛"></a></li>
+                            <li><a href="#"><img src="./img/Category/23.jpg" alt="제복의 소녀"></a></li>
+                            <li><a href="#"><img src="./img/Category/24.jpg" alt="너는 갔어야 했다"></a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <a href="#" title="전체도서목록보기" class="more">더 보러 가기</a>
+            <div class="nextBtn">
+                <a href="#" class="left">왼쪽으로</a>
+                <a href="#" class="right">오른쪽으로</a>
+            </div>
+        </section>
+        <section id="newBook">
+            <div id="newWrap">
+                <h2>신간 도서</h2>
+                <p>이번 달 새로운 도서를 소개합니다</p>
+                <ul id="newBookList">
+                    <li class="newBook1">
+                        <a href="#">
+                            <dl>
+                                <dt>오렌지만이 과일은 아니다</dt>
+                                <dd>21세기 버지니아 울프, 지넷 윈터슨의 대담한 자전 소설</dd>
+                                <dd>최고의 신인 작가에게 주는 휘트 브레드 상 수상작</dd>
+                                <dd>'21세기의 버지니아 울프' 지넷 윈터슨의 전설적인 데뷔작</dd>
+                                <dd>글 지넷 윈터슨, 김은정</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="newBook2">
+                        <a href="#">
+                            <dl>
+                                <dt>나의 천사</dt>
+                                <dd>"나, 천사를 봤어."</dd>
+                                <dd>목격한 순간, 결코 이전으로 되돌아갈 수 없다.
+                                    <br>
+                                    아름다운 존재가 되거나, 아름다운 존재를 갖거나.
+                                </dd>
+                                <dd>삶 전체를 내놓지 않으면 벗어날 수 없는 미(美)의 덫</dd>
+                                <dd>글 이희주</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="newBook3">
+                        <a href="#">
+                            <dl>
+                                <dt>8월에 만나요</dt>
+                                <dd>노벨 문학상 수상 작가, 마르케스의 유고 소설</dd>
+                                <dd>규범이나 구속을 벗어나 자신의 삶을 마주하는 여성에게 <br>
+                                    바치는 마르케스적 찬가</dd>
+                                <dd>글 가브리엘 가르시아 마르케스, 송병선</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="newBook4">
+                        <a href="#">
+                            <dl>
+                                <dt>애틋하고 행복한 타피오카의 꿈</dt>
+                                <dd>"인생은 한 번밖에 없으니 가능하면 행복한 편이 좋다."</dd>
+                                <dd>갓 지은 고슬고슬한 밥처럼 포근한 요시모토 바나나의 그림 에세이</dd>
+                                <dd>자식으로서, 부모로서 누구나 공감할 만한 감동적인 세대 간의 연결</dd>
+                                <dd>글 요시모토 바나나, 김난주</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="newBook5">
+                        <a href="#">
+                            <dl>
+                                <dt>느낌과 알아차림</dt>
+                                <dd>"누구보다도 많은 책을 평생 읽었던 독자 프루스트는 말한다. <br>
+                                    책은 질문을 던지고, 독자의 응답을 기다릴 뿐이라고."</dd>
+                                <dd>독자인 당신이 책의 물음에 답할 때, <br>
+                                    비로소 그 책은 당신에게 존재하는 책이 된다.</dd>
+                                <dd>글 이수은</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="newBook6">
+                        <a href="#">
+                            <dl>
+                                <dt>탱고</dt>
+                                <dd>20세기 세계 문학을 대표하는 보르헤스가 <br>
+                                    아르헨티나의 정신을 형성한 탱고에 대해 말하다</dd>
+                                <dd>사후 30년이 지나서야 출간된 귀중한 유고 강연집</dd>
+                                <dd>전 세계에 전하는 보르헤스의 마지막 신간 『탱고』</dd>
+                                <dd>글 호르헤 루이스 보르헤스, 송병선</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+                <div class="newSlideBtn">
+                    <div class="slideBtn">
+                        <div class="btnWrap">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="nextBtn1">
+                        <a href="#" class="next1">이전 도서목록</a>
+                        <a href="#" class="next2">다음 도서목록</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bestBook">
+            <div id="bastWrap">
+                <h2>베스트셀러</h2>
+                <p>많은 사람들에게 사랑받고 있는 책</p>
+                <ul id="bestBookList">
+                    <li>
+                        <a href="#">
+                            <dl class="bestBook1">
+                                <dt>데미안</dt>
+                                <dd>독일 문학의 거장 헤르만 헤세가 그린 ‘자신에게 이르는 길’</dd>
+                                <dd>“새는 알에서 나오려고 투쟁한다. 알은 세계이다. <br>
+                                    태어나려는 자는 하나의 세계를 깨뜨려야 한다.” </dd>
+                                <dd>글 헤르만 헤세, 전영애</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="bestBook2">
+                        <a href="#">
+                            <dl>
+                                <dt>동물농장</dt>
+                                <dd>20세기 영미 문학의 가장 중요한 작가 조지 오웰</dd>
+                                <dd>정치권력을 부패시키는 근본적 위험과 모순에 대한 빼어난 우화</dd>
+                                <dd>문학의 사회 비판적 역할에 대한 고민이 담긴 위대한 풍자소설</dd>
+                                <dd>글 조지 오웰, 도정일</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="bestBook3">
+                        <a href="#">
+                            <dl>
+                                <dt>1984</dt>
+                                <dd>21세기, 고도의 정보사회에 던지는 조지 오웰의 경고</dd>
+                                <dd>거대한 지배 체제하에 개인이 어떻게 저항하고 파멸해 가는가를 <br>
+                                    적나라하게 보여 주는 소설</dd>
+                                <dd>글 조지 오웰, 정회성</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="bestBook4">
+                        <a href="#">
+                            <dl>
+                                <dt>이방인</dt>
+                                <dd>엄격한 질서를 갖춘 고전 작품</dd>
+                                <dd>카뮈는 신화가 되었다. <br>
+                                    그를 인정하느냐 안 하느냐는 이제 별 의미가 없다.</dd>
+                                <dd>글 알베르 카뮈, 김화영</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="bestBook5">
+                        <a href="#">
+                            <dl>
+                                <dt>오만과 편견</dt>
+                                <dd>영국인들이 가장 사랑하는 여성 작가로 꼽힌 제인 오스틴</dd>
+                                <dd>제인 오스틴의 예리하고 풍자적인 묘사와 섬세한 감각의 코미디</dd>
+                                <dd>글 제인 오스틴, 윤지관</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li class="bestBook6">
+                        <a href="#">
+                            <dl>
+                                <dt>설국</dt>
+                                <dd>동양적 미의 정수를 보여준 노벨문학상 수상작. <br>
+                                    전세계인들의 감탄을 자아낸 눈 덮인 니가타 지방의 아름다운 정경.</dd>
+                                <dd>『설국』은 문체의 아름다움에 있어 대표적인 고전이다. </dd>
+                                <dd>이미 모두 읽고서도 다시 읽게 되는 것은 <br>
+                                    바로 그 시적이면서 우아한 문체 때문이다.</dd>
+                                <dd>글 가와바타 야스나리, 유숙자</dd>
+                                <dd></dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+                <div class="bestSlideBtn">
+                    <div class="slideBtn2">
+                        <div class="btnWrap2">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="nextBtn2">
+                        <a href="#" class="bast1">이전 도서목록</a>
+                        <a href="#" class="bast2">다음 도서목록</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="toDayWriter">
+            <h2>오늘의 작가상</h2>
+            <p>쓰는 존재, 읽는 생활</p>
+            <dl class="toDayBook">
+                <dt><span class="sos">정은우 장편소설</span><br>
+                    <span class="kook">『국자전』</span>
+                </dt>
+                <dd>주인공이 제맛을 내는 비결을 당장 명쾌하게 설명하지 못하듯 <br>
+                    이 작품에 부려진 마법이 오랫동안 회자되며 밝혀지기를.</dd>
+                <dd>박민정[소설가]</dd>
+                <dd>‘시간 가는 줄 모르고 읽게 된다.’는 말을 실감하긴 오랜만이었고, <br>
+                    이런 드문 경험을 외면할 수는 없었다. <br>
+                    앞으로 어떤 세계를 그려 낼 것인지, <br>
+                    그의 거침없는 행보를 계속 지켜보고 싶은 마음이다.</dd>
+                <dd>신샛별[문학평론가]</dd>
+                <dd class="toBook"></dd>
+            </dl>
+            <a href="#" class="bastWriter">역대 당선작 더 보러 가기</a>
+        </section>
+        <section id="shortCut">
+            <div id="shortDiv">
+            <h2 class="hide">민음사 서적구매 및 커뮤니티 바로가기</h2>
+            <ul>
+                <li class="group">
+                    <a href="#">
+                        공동구매<br>
+                        <span>바로가기</span>
+                    </a>
+                </li>
+                <li class="bookShop"><a href="#">
+                        민음북샵 <br>
+                        <span>바로가기</span>
+                    </a>
+                </li>
+                <li class="comu"><a href="#">
+                        커뮤니티<br>
+                        <span>바로가기</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footerWrap">
+            <div>
+                <a href="#">회원약관</a> | <a href="#">개인정보처리방침</a> | <a href="#">문의</a>
+                | 2차 저작권 문의 가이드 : <a href="#">국내 저작물</a> / <a href="#">해외 저작물</a>
+                | <a href="#">위치 및 연락처</a> | <a href="#">사이트맵</a> | <a href="#">소식 RSS</a>
+                | <a href="#">민음사 도서 RSS</a> | <a href="#">english</a>
+            </div>
+            <br>
+            <p>(주)민음북스 | 대표이사 : 박상준 | 사업자등록번호 : 211-88-41803 | 통신판매업 신고번호 : 제2010-서울강남-00971호 </p>
+            <p>주소 : 서울시 강남구 신사동 506 강남출판문화센터 5층 | 새주소 : 서울시 강남구 도산대로 1길 62 5층 </p>
+            <address> 전화 : 02-515-2000 | webmaster@minumsa.com </address>
+        </div>
+    </footer>
+    <script src="../html/jquery/common.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'neoaLt';
+    src: url(../font/NanumSquareNeo-aLt.ttf)
+}
+
+@font-face {
+    font-family: 'neobrg';
+    src: url(../font/NanumSquareNeo-bRg.ttf)
+}
+
+@font-face {
+    font-family: 'neocbd';
+    src: url(../font/NanumSquareNeo-cBd.ttf)
+}
+
+@font-face {
+    font-family: 'neodEb';
+    src: url(../font/NanumSquareNeo-dEb.ttf)
+}
+
+@font-face {
+    font-family: 'neoeHv';
+    src: url(../font/NanumSquareNeo-eHv.ttf)
+}
